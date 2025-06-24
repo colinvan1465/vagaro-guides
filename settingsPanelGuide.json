@@ -1,12 +1,12 @@
 {
   "id": "settings-panel",
   "name": "Your Command Center: A Settings Panel Tour",
-  "description": "Ready to unlock the full potential of your online presence? Let's take a friendly stroll through your Settings Panel – it's where all the magic happens!",
+  "description": "Ready to unlock your online potential? Let's stroll through your Settings Panel – where the magic happens!",
   "steps": [
     {
       "id": "intro",
       "title": "Welcome to Your Settings Playground!",
-      "description": "Think of this as your mission control! The Settings Panel has three super important sections: Settings, Pages, and Components. Each one is a trusty sidekick in building your dream website. Ready to dive in and explore?",
+      "description": "Think of this as your mission control! The Settings Panel has three important sections: Settings, Pages, and Components. Let's dive in!",
       "target": {
         "selector": ".panel-tabs"
       },
@@ -22,7 +22,7 @@
     {
       "id": "settings-tab",
       "title": "The 'Settings' Tab: Your Website's Brains!",
-      "description": "Go ahead, give this a click! This is where you'll find everything from your website's general 'mood' (styling, colors, fonts) to its online address (domains) and all the nitty-gritty configuration options. It's like giving your website a personality!",
+      "description": "Click here to access your website's general 'mood' (styling!), online address, and all the nitty-gritty configuration. Give your website personality!",
       "target": {
         "selector": ".panel-tabs .tab-button:nth-child(1)"
       },
@@ -38,7 +38,7 @@
     {
       "id": "settings-content",
       "title": "Making Your Mark: Settings Options",
-      "description": "Here's where you get to be the designer! Tweak your site's colors to match your brand (or your favorite socks!), pick the perfect fonts, boost your SEO (so folks can actually *find* you!), and so much more. Every little adjustment helps your website truly shine.",
+      "description": "Be the designer! Tweak colors, pick fonts, boost SEO, and more. Every adjustment helps your website truly shine.",
       "target": {
         "selector": "#settings-content"
       },
@@ -54,7 +54,7 @@
     {
       "id": "pages-tab",
       "title": "The 'Pages' Tab: Your Digital Storybook!",
-      "description": "Time to build your story, page by page! Click here to effortlessly add new chapters, fine-tune existing ones, and keep your website's flow as smooth as your favorite playlist. It's all about making navigation a breeze for your visitors!",
+      "description": "Time to build your story! Click here to add, fine-tune, and organize your website's pages for smooth navigation.",
       "target": {
         "selector": ".panel-tabs .tab-button:nth-child(2)"
       },
@@ -70,7 +70,7 @@
     {
       "id": "pages-content",
       "title": "Your Pages, Your Rules: Page Management",
-      "description": "This is your space to craft the perfect journey for your visitors! Create fresh new pages, give your existing ones a little polish, set catchy titles and friendly URLs, and make sure your navigation guides everyone exactly where they need to go. You've got this!",
+      "description": "Craft the perfect journey for visitors! Create new pages, polish existing ones, set titles, and manage navigation. You've got this!",
       "target": {
         "selector": ".page-list-container"
       },
@@ -86,7 +86,7 @@
     {
       "id": "designEditor-tab",
       "title": "The 'Design Editor' Tab: Your Creative Toolkit!",
-      "description": "Ready to get hands-on and bring your vision to life? Tap this tab to unlock a treasure trove of design components! Think of it as your virtual LEGO set – simply drag and drop elements like text, images, buttons, and more directly onto your pages. Building a beautiful site has never been this fun!",
+      "description": "Ready to bring your vision to life? Tap here to unlock a treasure trove of design components! Drag and drop elements onto your pages.",
       "target": {
         "selector": ".panel-tabs .tab-button:nth-child(3)"
       },
@@ -102,7 +102,7 @@
     {
       "id": "design-editor-content",
       "title": "Build it Beautiful: The Design Editor",
-      "description": "This is where your creativity truly shines! Explore a delightful array of components just waiting to be added to your pages. See something you like? Just grab it and pull it onto your canvas! Before you know it, you'll be building a website that truly wows.",
+      "description": "Your creativity shines here! Explore components, then just grab and pull them onto your canvas. Build a website that wows!",
       "target": {
         "selector": ".component-content"
       },
@@ -118,7 +118,7 @@
     {
       "id": "completion",
       "title": "Hooray, You're a Settings Pro!",
-      "description": "Fantastic work! You've officially mastered the art of navigating the Settings Panel. Now you're fully equipped to customize your website exactly the way you've always envisioned it. Go forth and create something amazing – we're here cheering you on!",
+      "description": "Fantastic work! You've mastered the Settings Panel. Now, customize your website exactly as you envisioned. Go create something amazing!",
       "target": {
         "selector": ".panel-tabs"
       },
@@ -132,7 +132,7 @@
       "showNextButton": true
     }
   ],
-  "completionMessage": "You've successfully completed the settings panel tour! You're now ready to put these fantastic features to work and craft the perfect online home for your business. We can't wait to see what you build!",
+  "completionMessage": "You've completed the settings panel tour! Now, put these fantastic features to work and craft the perfect online home for your business. We can't wait to see what you build!",
   "analytics": {
     "category": "settings-panel-tour",
     "trackSteps": true
