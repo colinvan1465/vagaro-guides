@@ -66,6 +66,134 @@
       "highlight": true,
       "dimBackground": true,
       "showNextButton": true
+    },
+    {
+      "id": "settings-panel-overview",
+      "title": "Settings Panel Overview",
+      "description": "The settings panel contains three important sections: Settings, Pages, and Components. Let's explore each one!",
+      "target": {
+        "selector": ".panel-tabs"
+      },
+      "validation": {
+        "type": "predefined",
+        "validatorId": "always-true"
+      },
+      "position": "right",
+      "highlight": true,
+      "dimBackground": true,
+      "showNextButton": true
+    },
+    {
+      "id": "settings-tab",
+      "title": "Settings Tab",
+      "description": "Click here to access general settings, site styling, domains, and other configuration options for your website.",
+      "target": {
+        "selector": ".panel-tabs .tab-button:nth-child(1)"
+      },
+      "validation": {
+        "type": "click",
+        "selector": ".panel-tabs .tab-button:nth-child(1)"
+      },
+      "position": "bottom",
+      "highlight": true,
+      "dimBackground": true,
+      "onEnter": "click-settings-tab"
+    },
+    {
+      "id": "settings-content",
+      "title": "Settings Options",
+      "description": "Here you can configure site colors, fonts, SEO settings, and more. Each option helps customize your website's appearance and behavior.",
+      "target": {
+        "selector": "#settings-content"
+      },
+      "validation": {
+        "type": "predefined",
+        "validatorId": "always-true"
+      },
+      "position": "right",
+      "highlight": true,
+      "dimBackground": true,
+      "showNextButton": true
+    },
+    {
+      "id": "pages-tab",
+      "title": "Pages Tab",
+      "description": "Click here to manage your website pages - add new pages, edit existing ones, and organize your site structure.",
+      "target": {
+        "selector": ".panel-tabs .tab-button:nth-child(2)"
+      },
+      "validation": {
+        "type": "click",
+        "selector": ".panel-tabs .tab-button:nth-child(2)"
+      },
+      "position": "bottom",
+      "highlight": true,
+      "dimBackground": true,
+      "onEnter": "click-pages-tab"
+    },
+    {
+      "id": "pages-content",
+      "title": "Page Management",
+      "description": "Create, edit, and organize your website pages here. You can set page titles, URLs, and manage the navigation structure.",
+      "target": {
+        "selector": ".page-list-container"
+      },
+      "validation": {
+        "type": "predefined",
+        "validatorId": "always-true"
+      },
+      "position": "right",
+      "highlight": true,
+      "dimBackground": true,
+      "showNextButton": true
+    },
+    {
+      "id": "designEditor-tab",
+      "title": "Design Editor Tab",
+      "description": "Click here to access the component library - drag and drop elements like text, images, buttons, and more onto your pages.",
+      "target": {
+        "selector": ".panel-tabs .tab-button:nth-child(3)"
+      },
+      "validation": {
+        "type": "click",
+        "selector": ".panel-tabs .tab-button:nth-child(3)"
+      },
+      "position": "bottom",
+      "highlight": true,
+      "dimBackground": true,
+      "onEnter": "click-designEditor-tab"
+    },
+    {
+      "id": "design-editor-content",
+      "title": "Design Editor",
+      "description": "Browse through various components you can add to your pages. Simply drag any component onto your canvas to start building!",
+      "target": {
+        "selector": ".component-content"
+      },
+      "validation": {
+        "type": "predefined",
+        "validatorId": "always-true"
+      },
+      "position": "right",
+      "highlight": true,
+      "dimBackground": true,
+      "showNextButton": true
+    },
+    {
+      "id": "completion",
+      "title": "Great Job!",
+      "description": "You now know how to navigate the settings panel. Use these tools to customize your website exactly how you want it!",
+      "target": {
+        "selector": ".panel-tabs"
+      },
+      "validation": {
+        "type": "predefined",
+        "validatorId": "always-true"
+      },
+      "position": "right",
+      "highlight": true,
+      "dimBackground": true,
+      "showNextButton": true
     }
   ],
   "completionMessage": "Great job! You're ready to start building your website.",
